@@ -32,33 +32,3 @@ print(check_strings("helloWorldThere"))
 
 
 
-
-'''
-
-            for i in string1:
-                if (i.isupper())== True:
-                    result+=(i.lower())
-                    '''
-
-
-
-'''
-    for char in string1 :
-        if char.isupper():
-            result += " " + char  
-        else:
-            result += char
-            
-    return result.split()
-'''
-'''
-    for char in string1 :
-        if char.isupper():
-            result += " " + char 
-        else:
-            result += char
-'''
-'''
-        for i in string1:
-            if (i.isupper())== True:
-                result+=(i.lower()) '''
