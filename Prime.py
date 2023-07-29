@@ -1,5 +1,5 @@
-# FirstNum = int(input("Enter first Number:"))
-# SecNum = int(input("Enter second Number:"))
+FirstNum = int(input("Enter first Number:"))
+SecNum = int(input("Enter second Number:"))
 def prime(FirstNum,SecNum):
     for num in range(FirstNum,SecNum + 1):
         if num > 1:
@@ -8,4 +8,4 @@ def prime(FirstNum,SecNum):
                     break
             else:
                 print(num)
-prime(25,50)
+prime(FirstNum,SecNum)
