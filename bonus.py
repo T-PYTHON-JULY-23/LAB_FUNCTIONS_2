@@ -1,8 +1,8 @@
 def hello_world(text:str):
     if type(text) == str:
-        print("your variable is string")
+        print("Your variable is string")
     else:
-      print('your variable is not string')
+      print('Your variable is not string')
     split=""
     for i in range(len(text)):
         if (text[i].isupper()):
