@@ -1,6 +1,6 @@
 
 #prime Numbers
-def is_it_prime(start,end):
+def find_prime(start,end):
     for number in range(start, end + 1):
         if number > 1:
          for i in range(2, number):
@@ -9,5 +9,4 @@ def is_it_prime(start,end):
          else:
            print(number)
 
-is_it_prime(25,50)
-
+find_prime(25,50)
