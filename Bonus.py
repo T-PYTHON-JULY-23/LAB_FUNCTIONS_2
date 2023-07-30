@@ -8,11 +8,11 @@ def check_strings (string1:str):
 
     for char in string1 :
         if char.isupper():
-            result += " " + char  
+            result += " " + char.lower() 
         else:
             result += char
 
-    return result.lower()
+    return result
    
 
 
