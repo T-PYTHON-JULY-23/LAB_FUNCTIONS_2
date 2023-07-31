@@ -1,0 +1,36 @@
+
+
+
+def find_primes (num1:int , num2:int):
+    """ Find prime number and print the prime numbers   """
+
+    for i in range(num1,num2+1):
+        for y in range (2,i):
+           if i % y == 0:
+                break
+        else:
+            print(i)
+
+
+find_primes (40, 50)
+
+
+
+def modifiPhrase (phrase:str)-> str:
+    """ check the type and replace it with a small letter,separates the word then return modified string"""
+    if not isinstance(phrase, str):
+        print("This is not a string, please prvoide a string")
+        return phrase
+    
+    modified_phrase = ""
+
+    for character in phrase:
+        if character.isupper():
+            modified_phrase += f" {character.lower()}"
+        else:
+            modified_phrase += character
+
+    return modified_phrase
+
+
+print(modifiPhrase("helloWorldThere"))
