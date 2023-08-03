@@ -1,9 +1,9 @@
 def fined_primes (x,y):
-    for check_number in range(x,y) :
-        if check_number % 2 == 0 :
-            continue
-        else :
-            print (f"{check_number}")
+   for number in range(x , y +1):
+      for num in range(2 , number):
+         if number%num ==0 :
+            break
+      else:
+            print(number)
        
-
-fined_primes(29,50) 
+fined_primes(25,50) 
